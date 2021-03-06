@@ -1,7 +1,7 @@
 with import <nixpkgs> {}; {
 		pet = buildGoModule rec {
 
-			name = "renderer";
+			name = "gl21-cube";
 
 			src = ./../.;
 
